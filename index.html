@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+  <meta charset="UTF-8">
+  <title>Bambus Tannbursti – Kaupa með Apple Pay</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://js.stripe.com/v3/"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bambus Tannbursti</h1>
+    <p>Umhverfisvæn hreinlætisvara sem skilar þér ferskri byrjun á hverjum degi 🌱</p>
+  </header>
+
+  <div class="container">
+    <div class="hero">
+      <img src="bambus.jpg" alt="Bambus Tannbursti">
+      <div class="details">
+        <h2>Þitt besta bros – náttúrulega</h2>
+        <p>
+          Skildu eftir plastið og taktu skref í átt að grænni framtíð.  
+          Bambus tannburstinn er 100% lífbrjótanlegur og með mjúkum burstum sem vernda gómana þína.
+        </p>
+        <div class="price">1 stk – aðeins 1.490 kr.</div>
+        <div id="payment-request-button"></div>
+      </div>
+    </div>
+
+    <div class="features">
+      <h3>Af hverju velja bambus?</h3>
+      <ul>
+        <li>🌿 Umhverfisvænn og plastlaus</li>
+        <li>🦷 Mjúkir burstar fyrir heilbrigði tannhold</li>
+        <li>♻️ 100% lífbrjótanlegt handfang</li>
+        <li>✨ Stílhrein hönnun sem passar á baðherbergið</li>
+      </ul>
+    </div>
+
+    <div class="reviews">
+      <h3>Umsagnir viðskiptavina</h3>
+      <div class="review">“Besti tannbursti sem ég hef prófað! Fær mig til að líða betur að vita að hann er ekki úr plasti.” – Anna</div>
+      <div class="review">“Mjúkir burstar en samt þægilega sterkir. Ég er komin til að vera með bambus.” – Jón</div>
+      <div class="review">“Ég keypti fyrir alla fjölskylduna. Börnin elska litina!” – Katrín</div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Hreinlætisverslun.is – Allur réttur áskilinn</p>
+  </footer>
+
+  <script src="stripe.js"></script>
+</body>
+</html>

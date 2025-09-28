@@ -1,0 +1,85 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfdfd;
+  color: #333;
+}
+header {
+  background: linear-gradient(135deg, #3a7d44, #2f6336);
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+}
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.hero {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.hero img {
+  width: 350px;
+  border-radius: 12px;
+}
+.details h2 {
+  font-size: 2rem;
+  color: #3a7d44;
+  margin-top: 0;
+}
+.price {
+  font-size: 1.5rem;
+  color: #222;
+  margin: 10px 0;
+}
+#payment-request-button {
+  margin-top: 20px;
+  max-width: 300px;
+}
+.features, .reviews {
+  margin-top: 60px;
+  text-align: center;
+}
+.features h3, .reviews h3 {
+  font-size: 1.8rem;
+  color: #3a7d44;
+}
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.features li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+.reviews .review {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-left: 5px solid #3a7d44;
+  font-style: italic;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+  margin-top: 60px;
+}
